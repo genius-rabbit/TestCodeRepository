@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <string.h>
+#include <malloc.h>
+
 void bubble_sort(int* num,int n){
 
 	int i, j, temp;
@@ -116,6 +119,7 @@ void bubble_sort3_1(int* num,int n){
 int main() {
     printf("print ten numbers:\n");
     int num[10];
+
     for(int i=0;i<10;i++){
         scanf("%d",&num[i]);
     }
